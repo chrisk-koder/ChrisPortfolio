@@ -1,0 +1,16 @@
+.alert-primary, .wipWebsite i {
+    background: #272C30;
+    border-radius: 10px;
+    border: none;
+    color: #bdc3c7 !important;
+    text-align: center !important;
+    bottom: 1px !important;
+    right: 20px !important;
+    position: fixed;
+    z-index: 10;
+    border: none;
+}
+.alert-primary, .wipWebsite a {
+    color: #be7f78;
+    text-align: center;
+}

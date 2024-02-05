@@ -1,0 +1,91 @@
+.games {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.game {
+    padding: 5px;
+    color: white;
+}
+
+.games .rust {
+    background: url("../../img/games/rust.jpg") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.games .csgo {
+    background: url("../../img/games/csgo.jpg") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.games .gmod {
+    background: url("../../img/games/gmod.jpg") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.games .fivem {
+    background: url("../../img/games/fivem.jpg") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.games .squad {
+    background: url("../../img/games/squad.jpg") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.game .rust:hover, .squad:hover, .csgo:hover, .fivem:hover, .gmod:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    transition: box-shadow .2s ease 0s;
+}
+
+.games a {
+    color: transparent !important;
+    transition: all .2s ease 0s !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.games a:hover {
+    color: white !important;
+    transition: all .2s ease 0s !important;
+}
+
+@media (max-width: 967px) {
+
+    .game {
+        padding: 10px;
+    }
+
+    .games .squad, .rust, .gmod, .fivem, .csgo {
+        padding: 50px !important;
+    }
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+/* Website made by syncryst#8877 */

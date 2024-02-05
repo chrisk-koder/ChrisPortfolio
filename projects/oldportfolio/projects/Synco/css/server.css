@@ -1,0 +1,39 @@
+.server-icon img {
+    width: 100px !important;
+}
+
+.server-info {
+    background: #27293D;
+    height: 100%;
+    color: white !important;
+}
+
+.server-icon {
+    height: 100%;
+}
+
+.server-content {
+    padding: 10px;
+    padding-right: 200px;
+    background: rgb(49, 52, 77) !important;
+    width: 100%;
+}
+
+.server-content h1 {
+    font-size: 25px;
+}
+
+.divider {
+    border: 1px solid white;
+    width: 100% !important;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    padding: 0px !important;
+}
+
+table {
+    color: white !important;
+}

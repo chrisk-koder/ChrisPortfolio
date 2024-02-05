@@ -1,0 +1,18 @@
+#intro {
+    padding: 150px;
+    height: 400px;
+}
+
+.aboutme {
+    color: white;
+    text-align: center;
+}
+
+.aboutme p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.aboutme p span {
+    font-weight: 600;
+}

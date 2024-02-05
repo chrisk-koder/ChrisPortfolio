@@ -1,0 +1,34 @@
+h1, h2, h3, h4, p {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    margin-top: 50px;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: white !important;
+    transition: color 100ms;
+}
+
+body {
+    background: #1E1E2F;
+}
+
+::-webkit-scrollbar {
+    background: #1E1E2F;
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #5f0a87;
+    border-radius: 5px;
+}

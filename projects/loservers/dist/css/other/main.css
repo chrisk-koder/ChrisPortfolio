@@ -1,0 +1,51 @@
+main {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.title h1 {
+    color: white;
+}
+
+.tosContent {
+    color: white;
+}
+
+.tosContent .title {
+    margin: 30px;
+}
+
+.tosContent a {
+    text-align: center;
+    color: #ff0000;
+    transition: all .2s ease 0s;
+}
+
+.tosContent a:hover {
+    text-align: center;
+    color: #b60c0c;
+    transition: all .2s ease 0s;
+}
+
+/* They currently have the same styling but I've separated them so they can be styled individually if needed later. */
+
+.privacyContent {
+    color: white;
+}
+
+.privacyContent .title {
+    margin: 30px;
+}
+
+.privacyContent a {
+    text-align: center;
+    color: #ff0000;
+    transition: all .2s ease 0s;
+}
+
+.privacyContent a:hover {
+    text-align: center;
+    color: #b60c0c;
+    transition: all .2s ease 0s;
+}
+

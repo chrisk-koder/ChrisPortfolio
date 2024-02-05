@@ -1,0 +1,5 @@
+.navbar.scrolled {
+    margin-top: 0px;
+    background: #283847;
+    transition: background 100ms, margin-top 100ms;
+}

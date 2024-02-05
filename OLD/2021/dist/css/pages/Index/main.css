@@ -1,0 +1,103 @@
+/* Intro */
+#intro  {
+    height: 100vh;
+    padding: 250px;
+}
+
+#intro h3,h5 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+#intro h3 {
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#intro h5 {
+    font-size: 45px;
+    font-weight: 200;
+}
+
+#intro .icon {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#intro .icon a {text-decoration: none !important;color: white;transition: color .2s;}
+#intro .icon a:hover {color: rgb(184, 184, 184) !important;transition: color .2s;}
+
+#intro .scrollDown {
+    color: white;
+    text-align: center;
+    bottom: 30px;
+    left: 50%;
+    position: absolute;
+}
+
+#intro .scrollDown a {
+    color: white;
+    font-size: 30px;
+}
+#intro .scrollDown a:hover {color: rgba(173, 173, 173, 1);}
+
+/* Content */
+#content {
+    background:url("../../../imgs/BG3.png");
+    background-size: cover;
+}
+
+#content .container {
+    padding-top: 1px;
+    padding-bottom: 60px;
+}
+
+#content .title {
+    text-align: center;
+    color: white;
+    margin-top: 100px !important;
+}
+#content .title span {
+    font-weight: 100;
+}
+#content .title h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#content .row {
+    margin-top: 50px;
+}
+
+#content .project {
+    height: 100%;
+}
+
+#content .unnamed {padding: 150px; background: url("../../../imgs/recentwork/UnnamedWebsite.png"); background-size: cover; border-radius: 20px; background-position: center top;}
+#content .hostic {padding: 150px; background: url("../../../imgs/recentwork/XDDesign.png"); background-size: cover; border-radius: 20px; background-position: center top;}
+#content .sdocs {padding: 150px; background: url("../../../imgs/recentwork/SDocs.png"); background-size: cover; border-radius: 20px; background-position: center top;}
+#content .portfolio {padding: 150px; background: url("../../../imgs/recentwork/Portfolio.png"); background-size: cover; border-radius: 20px; background-position: center top;}
+#content .loservers {padding: 150px; background: url("../../../imgs/recentwork/LoServers.png"); background-size: cover; border-radius: 20px; background-position: center top;}
+#content .limeservers {padding: 150px; background: url("../../../imgs/recentwork/LimeServers.png"); background-size: cover; border-radius: 20px; background-position: center top;transition: all .2s;}
+#content .twig {padding: 150px; background: url("../../../imgs/recentwork/Twig.png"); background-size: cover; border-radius: 20px; background-position: left top;transition: all .2s;}
+
+#content .project:hover {box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7) !important;transition: all .2s;}
+
+#content .preview::after {
+    content: "Click to preview";
+}
+
+#content .preview {
+    color: transparent !important;
+    text-align: center;
+    transition: all .2s !important;
+}
+
+#content .preview:hover {
+    color: white !important;
+    text-align: center;
+    transition: all .2s !important;
+}

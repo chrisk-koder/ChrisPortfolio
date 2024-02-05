@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,800&display=swap");
+
+html {
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #202020;
+}
+
+.divider {
+    margin: 100px;
+}
+
+.dev {
+    border: 2px solid blueviolet;
+}
+
+
+/* Aligns text to center */
+.tac {
+    text-align: center !important;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 20px;
+    padding: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    background: rgba(222, 222, 222, 0);
+    color: white !important;
+    transition: all .2s ease 0s;
+    font-weight: 100;
+}
+
+.navbar-collapse .nav-link {
+    padding: 10px;
+}
+
+.navbar-collapse {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 967px) {
+    .navbar {
+        margin-top: 0px;
+        background: #353535 !important;
+    }
+
+    .divider {
+        margin-top: 50px;
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-bottom: 50px;
+    }
+
+    #header p {
+        display: none !important;
+        content: "";
+    }
+
+    #header .title h1 {
+        margin-bottom: 50px;
+    }
+}
+
+.navbar-toggler {
+    margin: 15px;
+}
+
+.navbar .nav-item:hover {
+    color: rgb(189, 189, 189) !important;
+    transition: all .2s ease 0s;
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    color: white !important;
+    font-family: "Nunito Sans", "Futura", sans-serif;
+    transition: all .2s ease 0s;
+}
+
+.navbar .nav-item {
+    margin-left: 5px;
+    font-size: 20px;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    color: white !important;
+}
+
+.nav.link {
+    color: white !important;
+}
+
+.navbar.scrolled {
+    margin-top: 0px;
+    background: #353535 !important;
+    transition: background 100ms, margin-top 100ms;
+}
+
+.navbar.scrolled .nav-link {
+    margin-top: 20px !important;
+}
+
+.navbar .orderBtn {
+    background-color: #ff0000;
+    border: none;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 20px;
+}
+
+.navbar .orderBtn:hover {
+    background-color: #b60c0c;
+    transition: all .2s ease 0s;
+    color: white !important;
+}
+
+.dropdown .dropdown-menu {
+    transition: all .2s ease 0s;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    background-color: #434343;
+    transition: all .2s ease 0s;
+    border-radius: 5px;
+}
+
+.dropdown-item {
+    transition: all .2s ease 0s;
+}
+
+.dropdown-item:hover {
+    background-color: #353535;
+    transition: all .2s ease 0s;
+}
+
+.btn-service {
+    color: white;
+    font-family: "Nunito Sans", "Futura", sans-serif;
+    font-size: 20px;
+}
+
+.btn-service:hover {
+    color: rgb(189, 189, 189) !important;
+    transition: all .2s ease 0s;
+    padding-bottom: 10px;
+}
+
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    background-color: #333333;
+}
+
+footer a {
+    text-align: center;
+    color: #ff0000;
+    transition: all .2s ease 0s;
+}
+
+footer a:hover {
+    text-align: center;
+    color: #b60c0c;
+    transition: all .2s ease 0s;
+}
+
+/* Used when content on page does not cover enough to make footer stay at bottom */
+#stayAtBottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.far {
+    color: #ff0000 !important;
+}
+
+.scroller {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: #ff0000;
+    display: block !important;
+    transition: all .2s ease 0s;
+}
+
+.scrollUp {
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    color: #ff0000;
+    transition: all .2s ease 0s;
+}
+
+.scrollUp:hover {
+    color: #b60c0c;
+    transition: all .2s ease 0s;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    background: #202020;
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353535;
+    border-radius: 5px;
+}
+
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Shrink */
+.shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.shrink:hover, .shrink:focus, .shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* Website made by syncryst#8877 */

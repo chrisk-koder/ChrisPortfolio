@@ -1,0 +1,41 @@
+@import "./imports.css";
+
+::-webkit-scrollbar {
+    background: #2F3640;
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353B48;
+    border-radius: 5px;
+}
+
+/* Fonts
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+
+.btn-primary {
+    background-color: rgb(53, 59, 72);
+    border: none;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(41, 46, 54, 0.4);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(41, 46, 54, 0.4);
+    box-shadow: 0px 10px 5px 0px rgba(41, 46, 54, 0.4);
+    text-transform: uppercase;
+}
+
+.btn-primary:hover {
+    background-color: rgb(49, 55, 66);
+    border: none;
+    border-radius: 15px;
+    font-family: 'Raleway', sans-serif;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(41, 46, 54, 0.6);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(41, 46, 54, 0.6);
+    box-shadow: 0px 10px 5px 0px rgba(41, 46, 54, 0.6);
+    text-transform: uppercase;
+}

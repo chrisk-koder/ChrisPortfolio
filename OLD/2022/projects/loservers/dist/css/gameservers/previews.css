@@ -1,0 +1,29 @@
+.rust {
+    background: url("../../img/games/rust2.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.csgo {
+    background: url("../../img/games/csgo2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.gmod {
+    background: url("../../img/games/gmod2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.squad {
+    background: url("../../img/games/squad2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fivem {
+    background: url("../../img/games/fivem2.jpg");
+    background-size: cover;
+    background-position: center;
+}

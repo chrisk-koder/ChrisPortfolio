@@ -1,0 +1,29 @@
+#footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: rgba(173, 173, 173, 0.027);
+    backdrop-filter: blur(30px);
+}
+
+#footer h4 {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#footer span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200 !important;
+}
+
+
+#footer .icon {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#footer .icon a {text-decoration: none !important;color: white;transition: color .2s;}
+#footer .icon a:hover {color: rgb(184, 184, 184) !important;transition: color .2s;}

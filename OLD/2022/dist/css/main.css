@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url("../imgs/banner.jpg") no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Debug */
+.dev {
+    border: 1px solid palevioletred;
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 20px;
+    padding: 0px;
+    background: rgba(143, 87, 87, 0);
+    transition: background 100ms, margin-top 100ms;
+    color: white !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+}
+
+.navbar a {
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    transition: color .2s;
+}
+
+.navbar a:hover {
+    color: rgb(184, 184, 184) !important;
+    transition: color .2s;
+}
+
+.navbar.scrolled {
+    margin-top: 0px;
+    background: rgba(173, 173, 173, 0.212);
+    backdrop-filter: blur(30px);
+    transition: background 100ms, margin-top 100ms;
+}
+
+.navbar-brand {
+    font-size: 30px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
+.navbar-brand span {
+    font-weight: 100 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Navbar - Fixed Menu */
+
+
+/* Intro */
+#intro  {
+    height: 100vh;
+    padding: 250px;
+}
+
+#intro h3,h5 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+#intro h3 {
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#intro h5 {
+    font-size: 45px;
+    font-weight: 200;
+}
+
+#intro .scrollDown {
+    color: white;
+    text-align: center;
+    bottom: 30px;
+    left: 50%;
+    position: absolute;
+}
+
+#intro .scrollDown a {
+    color: white;
+    font-size: 30px;
+}
+#intro .scrollDown a:hover {color: rgba(173, 173, 173, 1);}
+
+/* Content */
+#content {
+    background:url("../imgs/BG3.png");
+    background-size: cover;
+}
+
+#content .container {
+    padding-top: 1px;
+    padding-bottom: 60px;
+}
+
+#content .title {
+    text-align: center;
+    color: white;
+    margin-top: 100px !important;
+}
+#content .title span {
+    font-weight: 100;
+}
+#content .title h4 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#content .title h5 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#content .title h6 {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+#content .row {
+    margin-top: 50px;
+}
+
+/* Projects */
+
+#content .projects {
+    transition: all .2s;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+#content .projects:hover {
+    transform: translateY(-10px);
+    transition: all .2s;
+}
+
+#content .projects .limeservers {background: url("../imgs/projects/LimeServers.png") center top no-repeat;background-size: cover;border-radius: 20px;}
+#content .projects .loservers {background: url("../imgs/projects/LoServers.png") center top no-repeat;background-size: cover;border-radius: 20px;}
+#content .projects .portfolio {background: url("../imgs/projects/oldPortfolio.png") center top no-repeat;background-size: cover;border-radius: 20px;}
+#content .projects .sdocs {background: url("../imgs/projects/SDocs.png") center top no-repeat;background-size: cover;border-radius: 20px;}
+#content .projects .unnamed {background: url("../imgs/projects/UnnamedWebsite.png") center top no-repeat;background-size: cover;border-radius: 20px;}
+#content .projects .hostic {background: url("../imgs/projects/XDDesign.png") center top no-repeat;background-size: cover;border-radius: 20px;}
+#content .projects .empty {
+    background: repeating-linear-gradient(45deg,#3a3a3a,#3a3a3a 10px,#333333 10px,#333333 20px);
+    border-radius: 21px;
+}
+
+#content .projects .preview::after {
+    content: "Click to view";
+}
+
+#content .projects .empty .preview {
+    color: white !important;
+    padding: 20px;
+}
+#content .projects .empty .preview::after {
+    content: "No recent work";
+    font-size: 25px;
+    font-weight: 200;
+}
+#content .projects .empty .preview:hover {
+    box-shadow: none;
+}
+
+#content .projects .unavailable::after {
+    content: "Unavailable";
+}
+
+#content .projects .preview, .unavailable {
+    color: transparent !important;
+    padding: 150px;
+    text-align: center;
+    transition: all .2s !important;
+    border-radius: 21px;
+}
+
+#content .projects .preview:hover, .unavailable:hover {
+    color: white !important;
+    text-align: center;
+    border-radius: 21px;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+}
+
+#content a {
+    text-decoration: none;
+}
+
+/* Contact Me */
+
+#contact {
+    margin-bottom: 100px;
+}
+
+#contact .icons {
+    margin: 5px;
+}
+
+#contact label {
+    color: white;
+}
+
+#contact .form-control {
+    background-color: transparent;
+    border: 1px solid rgb(95, 95, 95);
+    color: white;
+    background: rgba(173, 173, 173, 0.027);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+}
+
+#contact .btn-custom {
+    border: 1px solid rgb(95, 95, 95);
+    color: white;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: rgba(173, 173, 173, 0.027);
+    backdrop-filter: blur(30px);
+}
+
+#footer h4 {
+    font-size: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#footer span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200 !important;
+}
+
+
+#footer .icon a {text-decoration: none !important;color: white;transition: color .2s;}
+#footer .icon a:hover {color: rgb(184, 184, 184) !important;transition: color .2s;}
+
+/* Icons */
+
+.icon {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.icon a {text-decoration: none !important;color: white;transition: color .2s;}
+.icon a:hover {color: rgb(184, 184, 184) !important;transition: color .2s;}
+
+
+/* Other */
+
+.scrollToTop .far {
+    color: white !important;
+}
+
+.scroller {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    display: block !important;
+    transition: all .2s ease 0s;
+}
+
+.scrollUp {
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    transition: all .2s ease 0s;
+}
+
+.scrollUp:hover {
+    color: #cccccc;
+    transition: all .2s ease 0s;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    background: #202020;
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353535;
+    border-radius: 5px;
+}
+
+
+/* Change CSS depending on the browser size */
+@media (max-width: 575.98px) {
+    #intro {padding:0px;padding-top: 200px;}
+    #intro .scrollDown {display: none !important;}
+    #content .projects {margin-top: 20px !important;}
+    #content .row {margin-top: 0px !important;}
+    
+}
+
+@media (max-width: 767.98px) {
+    #intro {padding:0px;padding-top: 200px;}
+}
+
+@media (max-width: 991.98px) {
+    #intro {padding:0px;padding-top: 200px;}
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1399.98px) {
+
+}

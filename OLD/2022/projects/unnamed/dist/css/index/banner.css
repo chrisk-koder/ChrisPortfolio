@@ -1,0 +1,27 @@
+.banner {
+    text-align: center;
+    background: url("../../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white !important;
+    padding: 250px;
+}
+
+.banner h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.banner h5 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
+/* Fonts
+
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/

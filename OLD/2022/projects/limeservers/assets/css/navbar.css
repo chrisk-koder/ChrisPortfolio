@@ -1,0 +1,57 @@
+.navbar.scrolled {
+    margin-top: 0px;
+    border-bottom: 1px #303953 solid;
+    background: #19233F !important;
+    transition: background 100ms, margin-top 100ms;
+}
+
+/* NAVBAR */
+.navbar {
+    margin-top: 10px;
+    padding: 0px;
+    background: transparent !important;
+    transition: background 100ms, margin-top 100ms;
+    color: black !important;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+.navbar-brand {
+    width: 250px;
+}
+
+.navbar-collapse .nav-link {
+    padding: 10px;
+}
+
+.navbar-toggler {
+    margin: 15px;
+}
+
+.navbar .nav-item:hover {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar a {
+    color: #8E98B9 !important;
+    transition: 500ms;
+}
+
+.navbar .nav-item {
+    margin-left: 5px;
+    font-size: 20px;
+    color: rgba(255,255,255,.75) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav.link {
+    color: rgba(255,255,255,.75) !important;
+    transition: 500ms;
+}
+
+.nav-item a:hover {
+    color: white !important;
+    transition: 500ms;
+}

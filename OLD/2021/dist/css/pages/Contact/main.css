@@ -1,0 +1,94 @@
+body {
+    background: url("../../../imgs/BG3.png") no-repeat center top fixed !important; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#intro  {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+#intro h3,h5 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+#intro h3 {
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#intro h5 {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#intro span {
+    font-weight: 700;
+}
+
+#intro .icon {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#intro .icon a {text-decoration: none !important;color: white;transition: color .2s;}
+#intro .icon a:hover {color: rgb(184, 184, 184) !important;transition: color .2s;}
+
+#intro .scrollDown {
+    color: white;
+    text-align: center;
+    bottom: 30px;
+    left: 50%;
+    position: absolute;
+}
+
+#intro .scrollDown a {
+    color: white;
+    font-size: 30px;
+}
+#intro .scrollDown a:hover {color: rgba(173, 173, 173, 1);}
+
+/* Contact Form */
+
+#contact {
+    margin-bottom: 100px;
+}
+
+#contact .panel {
+    background: rgba(173, 173, 173, 0.027);
+    backdrop-filter: blur(30px);
+    padding: 50px;
+    color: white;
+    border-radius: 15px;
+    border: 5px rgba(255, 255, 255, 0.178) solid;
+}
+
+#contact label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+#emailHelp {
+    color: white;
+}
+
+#contact input {
+    background: rgba(233, 233, 233, 0) !important;
+    border: none;
+    color: white;
+    border: 5px rgba(255, 255, 255, 0.178) solid;
+}
+
+#contact textarea {
+    background: rgba(233, 233, 233, 0) !important;
+    border: none;
+    color: white;
+    border: 5px rgba(255, 255, 255, 0.178) solid;
+}

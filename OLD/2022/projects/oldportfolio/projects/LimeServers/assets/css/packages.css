@@ -1,0 +1,59 @@
+.webPackage .content {
+    background: #1C2746;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.webPackage p {
+    margin: 10px;
+}
+
+.webPackage .priceTag {
+    background: #253152;
+    text-align: center;
+    padding: 0px !important;
+    border-radius: 20px 20px 0px 0px;
+    padding-right: 25px;
+}
+
+.webPackage .image {
+    padding: 50px;
+}
+
+.webPackage .hot {
+    background: #C7EA46 !important;
+}
+
+.webPackage .hot p {
+    color: black !important;
+}
+
+.webPackage .title {
+    text-align: center;
+}
+
+.webPackage .features {
+    padding: 30px;
+}
+
+.webPackage .features p {
+    font-size: 19px !important;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.webPackages {
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+.webPackage {
+    margin-top: 30px;
+}
+
+.fa-check {
+    color: #C7EA46;
+}
+
+.fa-minus {
+    color: grey;
+}

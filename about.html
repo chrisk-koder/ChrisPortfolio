@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>ChrisK // Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/03c9aa091c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="./dist/css/aboutme.css">
+  </head>
+  <body>
+
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">Chris<span>K</span></a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="./#recent">Recent Work</a>
+            <a class="nav-link" href="./#current">Projects</a>
+            <a class="nav-link" href="./#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="intro">
+      <div class="container">
+        <div class="col-12">
+          <h3>Chris</h3>
+          <h5>About me / My skills</h5>
+        </div>
+      </div>
+    </section>
+
+    <section id="content">
+      <div class="container">
+
+        <div id="recent" class="title">
+          <h4>About</h4>
+        </div>
+        <div class="row justify-content-center">
+          <div class="aboutme col-12">
+            <p>Hi! My name is <span>Chris</span>, I'm a 19 year old from Norway. I'm a front-end web developer, I've been making websites for probably about 5-6 years, I started with downloading templates and just going through them and editing them to see how they worked, how it all was put together, I did that for a while before I eventually started trying to make my own websites. I made a lot of websites using HTML and CSS only, it took me a while before I started looking into Bootstrap, I've used that for every website ever since.</p>
+          </div>
+        </div>
+
+        <div id="current" class="title">
+          <h4>Skills</h4>
+          <h5>Still learning new things every day &hearts;</h5>
+        </div>
+        <div class="row">
+          <a class="projects col-lg-4 col-md-6 col-sm-12" href="">
+            <div class="sdocs shadow"><div class="unavailable"></div></div>
+          </a>
+          <a class="projects col-lg-4 col-md-6 col-sm-12" href="./projects/unnamed/index.html">
+            <div class="unnamed shadow"><div class="preview"></div></div>
+          </a>
+          <a class="projects col-lg-4 col-md-6 col-sm-12" href="./projects/hostic/index.html">
+            <div class="hostic shadow"><div class="preview"></div></div>
+          </a>
+        </div>
+        <div class="row">
+          <a class="projects col-lg-4 col-md-6 col-sm-12" href="./projects/limeservers/index.html">
+            <div class="limeservers shadow"><div class="preview"></div></div>
+          </a>
+          <a class="projects col-lg-4 col-md-6 col-sm-12" href="./projects/loservers/index.php">
+            <div class="loservers shadow"><div class="preview"></div></div>
+          </a>
+          <a class="projects col-lg-4 col-md-6 col-sm-12" href="./projects/oldportfolio/index.html">
+            <div class="portfolio shadow"><div class="preview"></div></div>
+          </a>
+        </div>
+
+        <div id="contact">
+          <div class="title">
+            <h4>Contact</h4>
+            <h5>Contact on discord for fast response :)</h5>
+            <h6>Click discord logo to copy my username</h6>
+          </div>
+          <div class="row icons justify-content-center">
+            <div class="col-lg-1 col-sm-3 icon">
+              <a onclick="copyBtn('ChrisK#8877')" href=""><i class="fab fa-discord"></i></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 contactMe">
+              <div class="mb-3">
+                <label for="contactFormEmail" class="form-label">Email address</label>
+                <input disabled type="email" class="form-control" id="contactFormEmail" placeholder="Currently Disabled">
+              </div>
+              <div class="mb-3">
+                <label for="contactFormText" class="form-label">Message</label>
+                <textarea disabled class="form-control" id="contactFormText" rows="3" placeholder="Currently Disabled"></textarea>
+              </div>  
+              <button type="submit" class="btn col-12 btn-custom disabled">Send</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="footer">
+      <footer>
+        <div class="container justify-content-center">
+          <div class="row justify-content-center">
+            <h4 class="brand">Chris<span>K</span></h4>
+            <div class="row icons justify-content-center">
+              <div class="col-lg-1 col-3 icon">
+                <a href="https://github.com/SyncrystAS"><i class="fab fa-github"></i></a>
+              </div>
+              <div class="col-lg-1 col-3 icon">
+                <a href="https://www.instagram.com/syncrystt"><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="col-lg-1 col-3 icon">
+                <a href="https://twitter.com/syncryst"><i class="fab fa-twitter"></i></a>
+              </div>
+            </div>
+            <div class="copyright">Copyright &copy; ChrisK 2022 - All Rights Reserved</div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <div class="scrollToTop">
+      <a id="scroller" href="#top"><i class="far fa-arrow-alt-circle-up"></i></a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="./dist/js/navbarScroll.js"></script>
+    <script src="./dist/js/scrollToTop.js"></script>
+    <script src="./dist/js/copyButton.js"></script>
+  </body>
+</html>

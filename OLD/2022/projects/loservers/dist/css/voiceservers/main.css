@@ -1,0 +1,65 @@
+.voices {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.voice {
+    padding: 5px;
+    color: white;
+}
+
+.voices .teamspeak {
+    background: url("../../img/voice/teamspeak.png") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.voices .mumble {
+    background: url("../../img/voice/mumble.jpg") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    transition: background .2s ease 0s;
+}
+
+.voice .teamspeak:hover, .mumble:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    transition: box-shadow .2s ease 0s;
+}
+
+.voice {
+    color: transparent;
+    transition: all .2s ease 0s;
+    text-align: center;
+    text-decoration: none !important;
+}
+
+.voice:hover {
+    color: white;
+    transition: all .2s ease 0s;
+}
+
+
+@media (max-width: 967px) {
+
+    .voice {
+        padding: 10px;
+    }
+
+    .voices .teamspeak, .mumble {
+        padding: 50px !important;
+    }
+}
+
+.title {
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+/* Website made by syncryst#8877 */

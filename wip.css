@@ -1,0 +1,42 @@
+.CHRISWIP {
+    background: repeating-linear-gradient(45deg,#3a3a3a,#3a3a3a 10px,#333333 10px,#333333 20px) !important;
+    padding: 10px !important;
+    text-align: center !important;
+    position: fixed !important;
+    bottom: 0px !important;
+}
+.CHRISWIP h1 {
+    font-size: 25px !important;
+}
+.CHRISWIP h5 {
+    font-size: 15px !important;
+}
+.CHRISWIP h1, .CHRISWIP h5 {
+    color: #e74c3c !important;
+}
+
+.CHRISWIP a {
+    padding: 10px !important;
+    color: #e74c3c !important;
+    text-decoration: none !important;
+}
+
+.CHRISWIP .CHRISBTN {
+    border: 1px solid #e74c3c !important;
+    margin: 10px !important;
+    border-radius: 20px !important;
+    transition: all .2s;
+}
+
+.CHRISWIP .CHRISBTN:hover {
+    transform: translateY(-5px);
+    transition: all .2s;
+}
+
+.CHRISWIP #CHRISCLOSE {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}

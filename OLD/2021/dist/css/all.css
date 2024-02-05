@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('./components/navbar.css');
+@import url('./components/footer.css');
+
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url("../imgs/banner.jpg") no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Debug */
+
+.dev {
+    border: 1px solid palevioletred;
+}
+
+/* Other */
+
+.scrollToTop .far {
+    color: white !important;
+}
+
+.scroller {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    display: block !important;
+    transition: all .2s ease 0s;
+}
+
+.scrollUp {
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    transition: all .2s ease 0s;
+}
+
+.scrollUp:hover {
+    color: #cccccc;
+    transition: all .2s ease 0s;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    background: #202020;
+    width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #353535;
+    border-radius: 5px;
+}
+
+
+/* Change CSS depending on the browser size */
+@media (max-width: 575.98px) {
+    #intro {padding:0px;padding-top: 200px;}
+    #intro .scrollDown {display: none !important;}
+    #content .projects {margin-top: 20px !important;}
+    #content .row {margin-top: 0px !important;}
+    
+}
+
+@media (max-width: 767.98px) {
+    #intro {padding:0px;padding-top: 200px;}
+}
+
+@media (max-width: 991.98px) {
+    #intro {padding:0px;padding-top: 200px;}
+}
+
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 1399.98px) {
+
+}

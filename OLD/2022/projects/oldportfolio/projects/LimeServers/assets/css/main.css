@@ -1,0 +1,162 @@
+/* Layout */
+
+@import "./navbar.css";
+@import "./packages.css";
+@import "./footer.css";
+
+/* Layout */
+
+/*
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Asap Condensed', sans-serif;
+font-family: 'Asap', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+
+*/
+
+#content {
+    margin-top: 100px;
+    color: #E2E7F8;
+}
+
+#content h1 {
+    color: #E2E7F8;
+    font-size: 55px;
+}
+
+#content p {
+    font-size: 25px;
+    color: #B8C1D9;
+}
+
+body {
+    background: #19233F;
+}
+
+.topBanner {
+    background: #1d5df9;
+    padding: 200px;
+}
+
+.dev {
+    padding: 20px;
+    border: 2px black solid;
+}
+
+.primary {
+    display: inline-block !important;
+    padding: 12px 0 !important;
+    width: 100% !important;
+    background: #C7EA46 !important;
+    font-weight: 600 !important;
+    line-height: 1.7 !important;
+    color: #fff !important;
+    text-align: center !important;
+    border-radius: 6px !important;
+}
+
+.btn-primary {
+  background: transparent !important;
+  color: white;
+  font-weight: 500;
+  border: 1px #C7EA46 solid !important;
+  border-radius: 15px !important;
+}
+
+.btn-primary:hover {
+  background: #C7EA46 !important;
+  color: black;
+  font-weight: 500;
+  border: 1px #C7EA46 solid !important;
+  border-radius: 15px !important;
+}
+
+.amount {
+  color: #C7EA46;
+  font-weight: 500;
+}
+
+.cycle {
+  font-size: 18px;
+}
+
+.dottedMap {
+    background: url("../img/dottedMap.png") no-repeat center;
+    height: 500px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dottedMap .content {
+    vertical-align: middle;
+}
+
+.btn-primary {
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-primary:hover{
+    text-decoration: none !important;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Shrink */
+.hvr-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}

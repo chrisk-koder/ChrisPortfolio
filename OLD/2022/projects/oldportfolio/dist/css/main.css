@@ -1,0 +1,268 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.dev {
+    border: 1px solid pink;
+}
+
+.supportMe {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+body {
+    background: url("../img/BG.PNG") no-repeat center top fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.title {
+    text-align: center !important;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.divider {
+    background: white;
+    padding: 0.3px;
+}
+
+.desc {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 23px;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a {
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+a:hover {
+    color: white;
+}
+
+.active {
+    font-weight: 700;
+    color: white !important;
+}
+
+a:hover {
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/*                                                      */
+
+.projects {
+    margin-top: 10px;
+}
+
+.project {
+    margin-top: 50px;
+}
+
+.project .preview {
+    color: transparent;
+    text-align: center;
+    transition: all .2s ease 0s;
+    font-size: 14px;    
+}
+
+.noPreview, .clickToView {
+    margin-bottom: 0px !important;
+}
+
+.noPreview::after {
+    content: "No preview available";
+}
+
+.clickToView::after {
+    content: "Click to preview";
+}
+
+.project .preview:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    color: white;
+    text-align: center;
+    transition: all .2s ease 0s;
+}
+
+.TM {
+    background: url("../img/Projects/TM.png") center center no-repeat;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Synco {
+    background: url("../img/Projects/Synco.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.LimeServers {
+    background: url("../img/Projects/Limeservers.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Twig {
+    background: url("../img/Projects/Twig.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Unnamed {
+    background: url("../img/Projects/Unnamed.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Synology2 {
+    background: url("../img/Projects/Synology2.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Synology {
+    background: url("../img/Projects/Synology.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.LoServers {
+    background: url("../img/Projects/loservers.png") center center no-repeat;
+    background-size: cover;
+    padding: 90px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+
+.name-panel {
+    color: white;
+    text-align: center;
+    background:#202224;
+    border-radius: 0px 0px 15px 15px;
+    padding: 10px;
+}
+
+/* About */
+
+.about {
+    margin-top: 50px;
+    font-family: 'Source Code Pro', monospace;
+    background: #202224;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.about h4 {
+    color: white;
+    text-align: center;
+}
+
+.about p {
+    margin-top: 25px;
+    padding: 20px;
+    color: white;
+}
+
+.bg-success {
+    background-color: #5e2ce6 !important;
+}
+
+.progress {
+    background-color: rgba(207, 207, 207, .1) !important;
+}
+
+p.stats {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* Animations */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* Shrink */
+.hvr-shrink {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.hvr-shrink:hover, .hvr-shrink:focus, .hvr-shrink:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+  /* Rotate */
+.hvr-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-rotate:hover, .hvr-rotate:focus, .hvr-rotate:active {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+
+/* Grow Rotate */
+.hvr-grow-rotate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow-rotate:hover, .hvr-grow-rotate:focus, .hvr-grow-rotate:active {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+}

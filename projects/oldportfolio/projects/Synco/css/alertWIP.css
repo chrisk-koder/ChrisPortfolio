@@ -1,0 +1,16 @@
+.wipWebsite i {
+    background: #272C30 !important;
+    border-radius: 10px !important;
+    border: none !important;
+    color: #bdc3c7 !important;
+    text-align: center !important;
+    bottom: 1px !important;
+    right: 20px !important;
+    position: fixed !important;
+    z-index: 10 !important;
+    border: none !important;
+}
+.wipWebsite a {
+    color: #be7f78 !important;
+    text-align: center !important;
+}

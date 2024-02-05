@@ -1,0 +1,22 @@
+.bans-table {
+    border-radius: 10px;
+    border: #3C3B3D 5px solid;
+}
+
+th {
+    border: none !important;
+    background: #3C3B3D;
+}
+
+thead {
+    background: #3C3B3D;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: #323133 !important;
+ }
+
+td {
+    border: none !important;
+    background: #3C3B3D;
+}

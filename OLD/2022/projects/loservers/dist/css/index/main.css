@@ -1,0 +1,176 @@
+.banner {
+    background: url("../../img/banner2.png") fixed;
+    background-size: cover;
+    margin: 0px;
+    padding-bottom: 100px;
+}
+
+/* Main */
+
+.title {
+    color: white;
+    text-align: center;
+    font-family: "Nunito Sans", "Futura", sans-serif;
+}
+
+.title h1 {
+    font-size: 50px;
+}
+
+.title p {
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title span {
+    font-weight: 700;
+}
+
+.title a {
+    text-decoration: none;
+    color: white;
+}
+
+.title .orderBtn{
+    background-color: #202020;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: all .2s ease 0s;
+}
+
+.title .orderBtn:hover {
+    background-color: #333333;
+    transition: all .2s ease 0s;
+}
+
+
+.content {
+    padding-top: 200px;
+}
+
+
+/* Features */
+
+#features {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+#features h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+#features p {
+    margin-top: -20px !important;
+}
+
+.features {
+    margin-top: 30px !important;
+}
+
+#features .icon {
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background-color: #333333;
+    padding: 25px;
+    border-radius: 100px;
+    border: 5px solid #434343;
+}
+
+#features .innerIcon {
+    color: #ff0000;
+    font-size: 60px;
+    text-align: center;
+}
+
+.feature .description {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+/* FAQ */
+
+.faq h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+.question {
+    margin-top: -10px;
+    padding: 20px;  
+}
+
+.question .body {
+    padding: 20px;
+    background-color: #202020;
+    color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 6px 20px 2px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 6px 20px 2px rgba(0,0,0,0.40);
+    box-shadow: 0px 6px 20px 2px rgba(0,0,0,0.40);
+}
+
+/* Order */
+
+#order {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.order .title h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.option {
+    padding: 20px;
+}
+
+.option .game{
+    background: url("../../img/gameservers.png") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    transition: background .2s ease 0s;
+}
+
+.option .voice{
+    background: url("../../img/voiceservers.png") no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    transition: background .2s ease 0s;
+}
+
+.order p {
+    font-size: 30px;
+}
+
+.option .voice:hover, .game:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    transition: box-shadow .2s ease 0s;
+}
+
+.order a {
+    color: transparent !important;
+    transition: all .2s ease 0s !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.order a:hover {
+    color: white !important;
+    transition: all .2s ease 0s !important;
+}
+
+/* Website made by syncryst#8877 */
